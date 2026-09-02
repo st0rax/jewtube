@@ -1,0 +1,72 @@
+{
+  "project": "jewtube",
+  "created": "2026-09-02",
+  "owner": "st0rax",
+  "default_branch": "main",
+  "verification": "docs: files present, JSON valid, README installer one-liner still stoorax/jewtube, jewtube_installer untouched",
+  "note": "JSON is truth. One id, one developer. G-001 is Nordstern, not a claim cell. Kante = depends_on; never pull a verkettete Aufgabe in parallel. No Dummy cargo test. No markdown board to sync. This is the st0rax fork, not stoorax/jewtube.",
+  "tasks": [
+    {
+      "id": "JT-010",
+      "title": "Bazaar in place: START_HERE, GOALS, WORK_CONTRACT, TASKBOARD.json, GIT_AGENTS",
+      "type": "docs",
+      "status": "claimed",
+      "owner": "pflege",
+      "branch": "docs/JT-010-bazaar-in-place",
+      "claimed_at": "2026-09-02",
+      "done_at": null,
+      "proof_path": null,
+      "verification": "PR against main; START_HERE is Bazaar entry not the only file; GOALS G-001 not a claim; TASKBOARD.json valid; identities @jewtube.local; README still has stoorax/jewtube installer one-liner; jewtube_installer unmodified",
+      "dod": "Bazaar files on branch/PR. Parent stoorax/jewtube, Dummy, HomBot, webagent-rs untouched. No AGENTS.md/MISSION.md invented. No markdown taskboard. No cargo/PLAN/DOSSIER.",
+      "depends_on": []
+    },
+    {
+      "id": "JT-011",
+      "title": "Entscheiden, ob README spaeter auf den Installer in diesem Fork zeigen soll (jetzt: stoorax/jewtube)",
+      "type": "docs",
+      "status": "free",
+      "owner": null,
+      "branch": null,
+      "claimed_at": null,
+      "done_at": null,
+      "proof_path": null,
+      "verification": "Entscheidung dokumentiert; URL nur aendern wenn die Zelle das ausdruecklich verlangt. Kein stiller Produktumzug.",
+      "dod": "Klare Ja/Nein-Entscheidung in der Zelle/PR. Installer-Datei selbst unangetastet ausser bewusst und belegt.",
+      "depends_on": [
+        "JT-010"
+      ]
+    },
+    {
+      "id": "JT-012",
+      "title": "Kurze ehrliche Notiz: was jewtube_installer tatsaechlich installiert (Skript nicht aendern)",
+      "type": "docs",
+      "status": "free",
+      "owner": null,
+      "branch": null,
+      "claimed_at": null,
+      "done_at": null,
+      "proof_path": null,
+      "verification": "Kurztext gegen das Skript gelesen; jewtube_installer Byte-gleich.",
+      "dod": "Kleine Doku (z.B. Abschnitt in START_HERE oder README-Hinweis), ohne das Installer-Skript anzufassen.",
+      "depends_on": [
+        "JT-010"
+      ]
+    },
+    {
+      "id": "JT-013",
+      "title": "Entscheiden, ob dieser Fork Arbeitsbaum wird oder duenner Installer-Spiegel bleibt",
+      "type": "docs",
+      "status": "free",
+      "owner": null,
+      "branch": null,
+      "claimed_at": null,
+      "done_at": null,
+      "proof_path": null,
+      "verification": "Entscheidung schriftlich; kein heimliches Aufblasen des Baums.",
+      "dod": "Eine klare Richtung fuer Folgearbeit, ohne Parent stoorax/jewtube zu beschreiben.",
+      "depends_on": [
+        "JT-010"
+      ]
+    }
+  ]
+}
